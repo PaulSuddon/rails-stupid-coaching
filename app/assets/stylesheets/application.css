@@ -13,3 +13,75 @@
  *= require_tree .
  *= require_self
  */
+
+ /* app/assets/stylesheets/application.css */
+
+/* Shared container styling */
+.container {
+  max-width: 550px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+/* Answer page - chat styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 10px 0;
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  border-radius: 5px;
+}
+
+li:last-child {
+  background: #007bff;
+  color: white;
+  border-left-color: #0056b3;
+}
+
+/* Ask page form styling */
+h1 {
+  font-size: 2.0rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #555;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+}
+
+input[type="submit"]:hover {
+  background: #0056b3;
+}

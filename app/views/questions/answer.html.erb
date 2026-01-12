@@ -1,0 +1,11 @@
+<!-- app/views/questions/answer.html.erb -->
+<div class="container">
+  <ul class="list-unstyled">
+    <li><%= @response %></li>
+    <p class="mb-0">– You</p>
+    <li><%= @answer %></li>
+    <p>– Your coach</p>
+  </ul>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-primary mt-3" %>
+</div>
